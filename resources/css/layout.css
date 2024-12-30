@@ -1,0 +1,98 @@
+/* General Page Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fa;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #007BFF; /* Vibrant Blue */
+    padding: 1rem;
+}
+
+.navbar h2 {
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.navbar .navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ffffff;
+    padding: 0.5rem 1rem;
+    font-size: 18px;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #0056b3;
+    border-radius: 4px;
+}
+
+/* Sidebar Styling */
+.sidebar {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+    height: 100%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar a {
+    display: block;
+    color: white;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.sidebar a:hover,
+.sidebar a.activate {
+    background-color: #007BFF;
+    color: white;
+}
+
+/* Content Section */
+.col-md-9 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar h2 {
+        font-size: 20px;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 16px;
+    }
+
+    .sidebar {
+        padding: 15px;
+    }
+
+    .sidebar a {
+        font-size: 16px;
+    }
+
+    .col-md-9 {
+        padding: 15px;
+    }
+}
